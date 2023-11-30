@@ -9,7 +9,7 @@ class Human:
 
 class Person(Human):
     def __init__(self, name, age, occupation):
-        super().__init__()  # Call the constructor of the parent class
+        super().__init__()  # Calling constructor of the parent class
         self.__name = name
         self.__age = age
         self.__occupation = occupation
